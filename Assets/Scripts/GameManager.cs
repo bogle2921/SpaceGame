@@ -25,9 +25,9 @@ public class GameManager : MonoBehaviour
 
         for(int i = 0; i < planetCount; i++){
             float x = Random.Range(-renderDistance, renderDistance);
-            float z = Random.Range(-renderDistance, renderDistance);
+            float y = Random.Range(-renderDistance, renderDistance);
 
-            float y = Random.Range(-height, height); // Gives a little bit of up and down so it doesn't look like it sits on 1 plane
+            float z = Random.Range(-height, height); // Gives a little bit of up and down so it doesn't look like it sits on 1 plane
 
             Vector3 pos = new Vector3(x,y,z);
 
