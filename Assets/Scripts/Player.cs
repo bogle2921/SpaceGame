@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,7 +7,7 @@ using UnityEngine.InputSystem;
 public class Player : MonoBehaviour
 {
     public InputAction controls;
-    float speed = 200f;
+    public float speed = 200f;
     Rigidbody rb;
     Vector2 moveDirection;
     // Start is called before the first frame update
